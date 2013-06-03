@@ -156,7 +156,8 @@ PRODUCT_PACKAGES += \
     CMWallpapers \
     Apollo \
     CMFileManager \
-    LockClock
+    LockClock \
+    PermissionsManager
 
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver
