@@ -10,7 +10,8 @@ UI_PATH := vendor/cm/prebuilt/common/media/audio/ui
 # Alarms
 PRODUCT_COPY_FILES += \
 	$(ALARM_PATH)/CyanAlarm.ogg:system/media/audio/alarms/CyanAlarm.ogg \
-	$(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg
+	$(ALARM_PATH)/NuclearLaunch.ogg:system/media/audio/alarms/NuclearLaunch.ogg \
+	$(ALARM_PATH)/Alarm_Day_by_day.ogg:system/media/audio/alarms/Alarm_Day_by_day.ogg
 
 # Notifications
 PRODUCT_COPY_FILES += \
@@ -21,7 +22,8 @@ PRODUCT_COPY_FILES += \
 	$(NOTIFICATION_PATH)/Naughty.ogg:system/media/audio/notifications/Naughty.ogg \
 	$(NOTIFICATION_PATH)/Pong.ogg:system/media/audio/notifications/Pong.ogg \
 	$(NOTIFICATION_PATH)/Rang.ogg:system/media/audio/notifications/Rang.ogg \
-	$(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg
+	$(NOTIFICATION_PATH)/Stone.ogg:system/media/audio/notifications/Stone.ogg \
+	$(NOTIFICATION_PATH)/S_Whistle.ogg:system/media/audio/notifications/S_Whistle.ogg
 
 # Ringtones
 PRODUCT_COPY_FILES += \
