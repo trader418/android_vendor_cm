@@ -151,8 +151,7 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     LockClock \
     CMFota \
-    CMAccount \
-    WhisperPush
+    CMAccount
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
