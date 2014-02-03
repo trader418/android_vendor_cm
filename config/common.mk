@@ -148,6 +148,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librsjni
 
+# Omni Apps
+PRODUCT_PACKAGES += \
+    OmniSwitch
+
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
