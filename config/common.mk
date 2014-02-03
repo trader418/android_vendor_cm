@@ -156,6 +156,10 @@ PRODUCT_PACKAGES += \
     libemoji \
     Terminal
 
+# Omni Apps
+PRODUCT_PACKAGES += \
+    OmniSwitch
+
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
