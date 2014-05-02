@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Mms \
     Stk \
+    VoiceDialer \
     WhisperPush
 
 # Mms depends on SoundRecorder for recorded audio messages
