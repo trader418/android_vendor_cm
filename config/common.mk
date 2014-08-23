@@ -151,8 +151,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3 \
     Trebuchet \
-    DSPManager \
-    libcyanogen-dsp \
     audio_effects.conf \
     CMWallpapers \
     Apollo \
