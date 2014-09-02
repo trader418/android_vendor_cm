@@ -147,10 +147,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OmniSwitch
 
-# Viper4Android
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/etc/viper/ViPER4Android.apk:system/app/ViPER4Android.apk
-
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
