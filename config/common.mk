@@ -166,7 +166,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3 \
     Trebuchet \
-    AudioFX \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf \
     CMWallpapers \
     CMFileManager \
     Eleven \
