@@ -169,7 +169,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3 \
     Trebuchet \
-    DSPManager \
+    AudioFX \
     libcyanogen-dsp \
     audio_effects.conf \
     CMWallpapers \
