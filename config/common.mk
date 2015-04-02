@@ -1,5 +1,7 @@
 PRODUCT_BRAND ?= cyanogenmod
 
+TARGET_NO_SEPARATE_RECOVERY := true
+
 ifneq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
 # determine the smaller dimension
 TARGET_BOOTANIMATION_SIZE := $(shell \
