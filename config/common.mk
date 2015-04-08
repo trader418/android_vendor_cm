@@ -162,11 +162,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OmniSwitch
 
-# Screen recorder
-PRODUCT_PACKAGES += \
-    ScreenRecorder \
-    libscreenrecorder
-
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
