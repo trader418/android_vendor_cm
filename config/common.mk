@@ -112,9 +112,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 
+ifneq ($(TARGET_BUILD_VARIANT),user)
 # userinit support
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
+endif
 
 # CM-specific init file
 PRODUCT_COPY_FILES += \
