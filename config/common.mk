@@ -101,7 +101,7 @@ PRODUCT_COPY_FILES += \
 
 # LCD density backup
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/bin/99-backup.sh:system/addon.d/99-backup.sh \
+    vendor/cm/prebuilt/common/bin/97-backup.sh:system/addon.d/97-backup.sh \
     vendor/cm/prebuilt/common/etc/backup.conf:system/etc/backup.conf 
 
 # init.d support
