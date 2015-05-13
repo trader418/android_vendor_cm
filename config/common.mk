@@ -182,12 +182,13 @@ PRODUCT_PACKAGES += \
     CMHome \
     CyanogenSetupWizard
 
-# CM Bug Reporting
+ifeq ($(filter NIGHTLY SNAPSHOT EXPERIMENTAL,$(CM_BUILDTYPE)),)
+# CM Platform Library
 PRODUCT_PACKAGES += \
-    CMBugReport
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.error.receiver.system.apps=org.cyanogenmod.bugreport
+    org.cyanogenmod.platform-res \
+    org.cyanogenmod.platform \
+    org.cyanogenmod.platform.xml
+endif
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
