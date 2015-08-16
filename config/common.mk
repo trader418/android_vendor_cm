@@ -177,7 +177,8 @@ PRODUCT_PACKAGES += \
     Eleven \
     LockClock \
     CMAccount \
-    CMHome
+    CMHome \
+    CyanogenSetupWizard
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
