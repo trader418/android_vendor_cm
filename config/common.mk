@@ -163,10 +163,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OTAUpdates
 
-# SlimSaber's WallpaperPicker
-PRODUCT_PACKAGES += \
-    WallpaperPicker
-
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
