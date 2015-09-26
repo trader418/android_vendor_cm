@@ -176,7 +176,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMAccount \
     CMHome \
-    CyanogenSetupWizard
+    CyanogenSetupWizard \
+    CMSettingsProvider
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
