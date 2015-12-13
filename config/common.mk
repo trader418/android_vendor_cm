@@ -157,10 +157,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OmniSwitch
 
-# Kryten2k35 OTAUpdates
-PRODUCT_PACKAGES += \
-    OTAUpdates
-
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
