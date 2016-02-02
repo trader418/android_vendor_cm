@@ -9,8 +9,7 @@ PRODUCT_COPY_FILES += \
 # Telephony packages
 PRODUCT_PACKAGES += \
     Mms \
-    Stk \
-    WhisperPush
+    Stk
 
 # Mms depends on SoundRecorder for recorded audio messages
 PRODUCT_PACKAGES += \
