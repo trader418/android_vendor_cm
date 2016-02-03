@@ -144,6 +144,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
 
+# Live lockscreen
+PRODUCT_COPY_FILES += \
+    vendor/cm/config/permissions/org.cyanogenmod.livelockscreen.xml:system/etc/permissions/org.cyanogenmod.livelockscreen.xml
+
 # Theme engine
 include vendor/cm/config/themes_common.mk
 
