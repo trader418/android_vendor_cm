@@ -171,7 +171,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CyanogenSetupWizard \
     CMSettingsProvider \
-    ExactCalculator
+    ExactCalculator \
+    LiveLockScreenService
 
 # Exchange support
 PRODUCT_PACKAGES += \
